@@ -43,14 +43,14 @@
 @use "bootstrap/scss/theme" with (
   $theme-colors: (
     "success": (
-      "base": #7952b3,
-      "fg": #7952b3,
-      "fg-emphasis": #4a3169,
-      "bg": #7952b3,
-      "bg-subtle": light-dark(#efe9f5, #2d2140),
-      "bg-muted": light-dark(#d9cce9, #4a3169),
-      "border": light-dark(#b79bd6, #6b4a94),
-      "focus-ring": color-mix(in oklch, #7952b3 50%, var(--bg-body)),
+      "base": #679c5a,
+      "fg": #679c5a,
+      "fg-emphasis": #56834a,
+      "bg": #679c5a,
+      "bg-subtle": light-dark(#edf5e9, #263b21),
+      "bg-muted": light-dark(#d1e9cc, #263b21),
+      "border": light-dark(#a7d69b, #263b21),
+      "focus-ring": color-mix(in oklch, #263b21 50%, var(--bg-body)),
       "contrast": var(--white)
     )
   ),
