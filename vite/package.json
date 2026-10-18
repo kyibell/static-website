@@ -1,0 +1,24 @@
+{
+  "name": "vite",
+  "description": "Include Bootstrap's source Sass and individual JavaScript plugins with Vite.",
+  "version": "0.0.0",
+  "private": true,
+  "repository": "twbs/examples",
+  "license": "MIT",
+  "stackblitz": {
+    "startCommand": "npm start"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "test": "npm run build"
+  },
+  "dependencies": {
+    "@floating-ui/dom": "^1.7.6",
+    "bootstrap": "^6.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "sass": "^1.105.1",
+    "vite": "^8.0.16"
+  }
+}
